@@ -1,0 +1,2 @@
+# ChessWinRateAnalyzer
+和電腦對戰並分析選取的棋子每步的勝率
