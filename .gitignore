@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 忽略 Python 環境與編譯檔
+__pycache__/
+*.pyc
+venv/
+
+# 忽略 C 語言編譯產物
+*.o
+*.exe
+
+# 忽略大型數據檔與資料庫
+*.csv
+*.db
+.env            # 存放 MySQL 密碼等機密資訊

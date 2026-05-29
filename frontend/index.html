@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>西洋棋勝率分析器</title>
+    <link rel="stylesheet" href="css/chessboard-1.0.0.min.css">
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; background: #f0f0f0; }
+        #board-container { margin-top: 20px; width: 400px; }
+        #analysis { margin-top: 20px; padding: 15px; background: white; border-radius: 8px; width: 400px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .move-row { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid #eee; }
+    </style>
+</head>
+<body>
+
+    <h1>西洋棋勝率分析器</h1>
+    
+    <div id="board-container">
+        <div id="myBoard" style="width: 400px"></div>
+    </div>
+
+    <div id="analysis">
+        <h3>勝率預測 (下一步)</h3>
+        <div id="win-rate-list">移動棋子後顯示數據...</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/chessboard-1.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

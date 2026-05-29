@@ -1,0 +1,5 @@
+pandas
+mysql-connector-python
+python-chess
+flask
+flask-cors
